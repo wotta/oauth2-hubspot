@@ -1,0 +1,40 @@
+{
+    "name": "wotta/oauth2-hubspot",
+    "description": "HubSpot OAuth 2 Client Provider for The PHP League OAuth2-Client package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Platform Group",
+            "email": "developer@helpscout.com"
+        },
+        {
+            "name": "Wouter van Marrum",
+            "email": "wouter.van.marrum@protonmail.com"
+        }
+    ],
+    "keywords": [
+        "oauth",
+        "oauth2",
+        "client",
+        "authorization",
+        "authorisation",
+        "hubspot"
+    ],
+    "require": {
+        "league/oauth2-client": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0",
+        "squizlabs/php_codesniffer": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "HelpScout\\OAuth2\\Client\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "HelpScout\\OAuth2\\Client\\Test\\": "tests/src/"
+        }
+    }
+}
